@@ -21,7 +21,7 @@ const FeedDisplayer = ({ posts }: IFeedDisplayer) => (
         {posts.map((post, index) => (
             <ui.singleFeed key={index}>
                 <ui.title> {post.title} </ui.title>
-                <ui.link href={post.link}> {post.link} </ui.link>
+                <ui.link href={post.link} target='blank'> {post.link} </ui.link>
                 <ui.date> published date: {post.pubDate} </ui.date>
             </ui.singleFeed>
         ))}

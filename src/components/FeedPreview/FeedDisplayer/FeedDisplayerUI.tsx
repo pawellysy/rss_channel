@@ -15,12 +15,9 @@ align-items:center;
 justify-content: center;
 `
 
-export const title = styled.h3`
-`
+export const title = styled.h3``
 
 export const link = styled.a``
-
-export const description =  styled.div``
 
 export const date = styled.div`
 margin-top: 3rem;
