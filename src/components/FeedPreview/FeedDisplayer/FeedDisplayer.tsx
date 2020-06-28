@@ -16,19 +16,16 @@ interface IFeedAtributes {
     category: any;
 }
 
-
-const FeedDisplayer = ({ posts }: IFeedDisplayer) => {
-
-    return <ui.FeedDisplayerWrapper>
-        {posts.map((post,index) => ( 
-        <ui.singleFeed key={index}>
+const FeedDisplayer = ({ posts }: IFeedDisplayer) => (
+    <ui.FeedDisplayerWrapper>
+        {posts.map((post, index) => (
+            <ui.singleFeed key={index}>
                 <ui.title> {post.title} </ui.title>
                 <ui.link href={post.link}> {post.link} </ui.link>
                 <ui.date> published date: {post.pubDate} </ui.date>
             </ui.singleFeed>
         ))}
-        
-        </ui.FeedDisplayerWrapper>;
-};
+    </ui.FeedDisplayerWrapper>
+);
 
 export default FeedDisplayer;

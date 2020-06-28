@@ -42,9 +42,6 @@ const FeedPreview = ( {url} : IFeedPreview) => {
         setPostsToDisplay(filteredPosts);
     }
 
-    console.log(posts[0])
-    
-
     return (
         <ui.FeedPreviewWrapper>
             My FeedPreview with url {url}

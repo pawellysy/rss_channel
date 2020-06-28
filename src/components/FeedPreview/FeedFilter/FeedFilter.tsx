@@ -6,7 +6,7 @@ interface IFeedFilter {
 }
 const FeedFilter = ({filterPosts}: IFeedFilter) => {
  
-    const handleChange = (ev:any) => {
+    const handleChange = (ev: any) => {
         filterPosts(ev.target.value)
     }
 
