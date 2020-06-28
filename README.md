@@ -1,10 +1,14 @@
 This is react application, created using create-react-app with typescript template
 
+# depenencies
+node.js v12
+npm v6.14 or yarn v 1.21
+
 # running the application
 
-```yarn``` to install dependencies
+```yarn``` or ```npm install``` to install dependencies
 
-```yarn start``` to start application
+```yarn start``` or ```npm start``` to start application
 
 
 # desired component
